@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background shield -->
+  <path d="M100 10 L180 50 L180 140 L100 190 L20 140 L20 50 Z" 
+        fill="#8B4513" stroke="#4A2511" stroke-width="4"/>
+  
+  <!-- Decorative border -->
+  <path d="M100 20 L170 55 L170 135 L100 180 L30 135 L30 55 Z" 
+        fill="none" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Quill pen -->
+  <path d="M60 90 C90 85, 120 70, 140 50
+           L135 55 L140 50 L135 53
+           C105 73, 75 88, 45 93
+           C75 88, 105 73, 135 53"
+        fill="#F5DEB3" stroke="#4A2511" stroke-width="1.5"/>
+  
+  <!-- Ink splatter -->
+  <circle cx="65" cy="95" r="3" fill="#4A2511"/>
+  <circle cx="60" cy="98" r="2" fill="#4A2511"/>
+  <circle cx="63" cy="100" r="1.5" fill="#4A2511"/>
+  
+  <!-- Scroll -->
+  <path d="M50 110 C80 100, 120 100, 150 110
+           L150 130 C120 120, 80 120, 50 130 Z"
+        fill="#F5F5DC" stroke="#4A2511" stroke-width="2"/>
+  <path d="M50 110 C55 105, 60 105, 65 110" fill="none" stroke="#4A2511" stroke-width="1"/>
+  <path d="M135 110 C140 105, 145 105, 150 110" fill="none" stroke="#4A2511" stroke-width="1"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="100" cy="40" r="3" fill="#FFD700"/>
+  <circle cx="160" cy="95" r="3" fill="#FFD700"/>
+  <circle cx="100" cy="160" r="3" fill="#FFD700"/>
+  <circle cx="40" cy="95" r="3" fill="#FFD700"/>
+</svg>

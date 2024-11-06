@@ -1,0 +1,86 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --galaxy-white: #ffffff;
+  --galaxy-white-soft: #f8f8f8;
+  --galaxy-white-mute: #f2f2f2;
+
+  --galaxy-black: #181818;
+  --galaxy-black-soft: #222222;
+  --galaxy-black-mute: #282828;
+
+  --galaxy-indigo: #2c3e50;
+
+  --galaxy-divider-light-1: rgba(60, 60, 60, 0.29);
+  --galaxy-divider-light-2: rgba(60, 60, 60, 0.12);
+  --galaxy-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --galaxy-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --galaxy-text-light-1: var(--galaxy-indigo);
+  --galaxy-text-light-2: rgba(60, 60, 60, 0.66);
+  --galaxy-text-dark-1: var(--galaxy-white);
+  --galaxy-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--galaxy-white);
+  --color-background-soft: var(--galaxy-white-soft);
+  --color-background-mute: var(--galaxy-white-mute);
+
+  --color-border: var(--galaxy-divider-light-2);
+  --color-border-hover: var(--galaxy-divider-light-1);
+
+  --color-heading: var(--galaxy-text-light-1);
+  --color-text: var(--galaxy-text-light-2);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--galaxy-black);
+    --color-background-soft: var(--galaxy-black-soft);
+    --color-background-mute: var(--galaxy-black-mute);
+
+    --color-border: var(--galaxy-divider-dark-2);
+    --color-border-hover: var(--galaxy-divider-dark-1);
+
+    --color-heading: var(--galaxy-text-dark-1);
+    --color-text: var(--galaxy-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
